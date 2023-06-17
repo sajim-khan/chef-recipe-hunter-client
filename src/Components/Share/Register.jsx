@@ -207,7 +207,7 @@ const Register = () => {
               </div>
               <p className="mt-4">
                 Allready Have an Account
-                <Link className="text-blue-500" to="/register">
+                <Link className="text-cyan-600" to="/register">
                   {" "}
                   Login{" "}
                 </Link>{" "}

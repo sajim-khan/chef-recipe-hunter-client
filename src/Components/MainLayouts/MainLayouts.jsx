@@ -8,7 +8,6 @@ const MainLayouts = () => {
     <div>
       <Header></Header>
       <Outlet></Outlet>
-
       <Footer></Footer>
     </div>
   );
