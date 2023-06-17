@@ -59,10 +59,9 @@ const About = () => {
             Food, substance consisting essentially of protein, carbohydrate,
             fat, and other nutrients used in the body of an organism to sustain
             growth and vital processes and to furnish energy. The absorption and
-            utilization of food by the body is fundamental to nutrition and is
-            facilitated by
+            utilization of food by the body is fundamental to nutrition.
           </p>
-          <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-red-600">
+          <button className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-cyan-700">
             FAVOURITE
           </button>
         </div>

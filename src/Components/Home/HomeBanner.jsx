@@ -17,17 +17,18 @@ const HomeBanner = () => {
               <p className="text-sm font-bold uppercase tracking-widest text-red-700">
                 WELCOME TO
               </p>
-
               <p className="text-xl font-bold text-white sm:text-2xl">
-                <span className="text-red-600">FOOD </span> BOOK{" "}
+                <span className="text-orange-700">FOOD </span> BANK{" "}
               </p>
 
               <div className="mt-32 sm:mt-48 lg:mt-64">
                 <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
                   <p className="text-sm text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Omnis perferendis hic asperiores quibusdam quidem voluptates
-                    doloremque reiciendis nostrum harum. Repudiandae?
+                    Our restaurant is an enchanting fusion of flavors, offering
+                    a diverse menu that caters to all palates. With our
+                    passionate chefs, vibrant ambiance, and exquisite
+                    presentation, we guarantee an unforgettable dining
+                    experience for food lovers and connoisseurs alike.
                   </p>
                 </div>
               </div>
@@ -39,7 +40,7 @@ const HomeBanner = () => {
                 // style={{ height: "500px", width: "700px" }}
               ></Player>
               <div>
-                <h1 className="text-2xl font-bold text-red-600">
+                <h1 className="text-2xl font-bold text-sky-500">
                   {" "}
                   CHOOSE YOUR FAVOURITE FOOD
                 </h1>
@@ -59,7 +60,7 @@ const HomeBanner = () => {
                 // style={{ height: "500px", width: "700px" }}
               ></Player>
             </div>
-            <h2 className="text-4xl font-bold mb-4  text-blue-600">
+            <h2 className="text-4xl font-bold mb-4  text-cyan-600">
               WELCOME TO OUR FOOD WEBSITE
             </h2>
             <p className="text-xl mb-4">
@@ -69,7 +70,7 @@ const HomeBanner = () => {
             </p>
             <a
               href="#"
-              className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-red-600"
+              className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-fuchsia-500"
             >
               Learn More
             </a>
