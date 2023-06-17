@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "chef_picture": "https://example.com/alex.jpg",
+    "chef_name": "Alex",
+    "years_of_experience": 10,
+    "number_of_recipes": 50,
+    "likes": 1000,
+    "view_recipes_button": "https://example.com/alex/recipes"
+  },
+  {
+    "id": 2,
+    "chef_picture": "https://example.com/bella.jpg",
+    "chef_name": "Bella",
+    "years_of_experience": 7,
+    "number_of_recipes": 80,
+    "likes": 500,
+    "view_recipes_button": "https://example.com/bella/recipes"
+  },
+  {
+    "id": 3,
+    "chef_picture": "https://example.com/chris.jpg",
+    "chef_name": "Chris",
+    "years_of_experience": 5,
+    "number_of_recipes": 60,
+    "likes": 200,
+    "view_recipes_button": "https://example.com/chris/recipes"
+  },
+  {
+    "id": 4,
+    "chef_picture": "https://example.com/diana.jpg",
+    "chef_name": "Diana",
+    "years_of_experience": 12,
+    "number_of_recipes": 120,
+    "likes": 800,
+    "view_recipes_button": "https://example.com/diana/recipes"
+  },
+  {
+    "id": 5,
+    "chef_picture": "https://example.com/edward.jpg",
+    "chef_name": "Edward",
+    "years_of_experience": 8,
+    "number_of_recipes": 90,
+    "likes": 300,
+    "view_recipes_button": "https://example.com/edward/recipes"
+  },
+  {
+    "id": 6,
+    "chef_picture": "https://example.com/fiona.jpg",
+    "chef_name": "Fiona",
+    "years_of_experience": 3,
+    "number_of_recipes": 30,
+    "likes": 100,
+    "view_recipes_button": "https://example.com/fiona/recipes"
+  }
+]
