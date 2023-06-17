@@ -41,61 +41,13 @@ const Login = () => {
       });
   };
 
-  const handleGooglesignIn = () => {
-    googleSignIn()
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
-        console.log(user);
-        navigate(from, { replace: true });
-
-        if (user) {
-          toast("Acount Create Success");
-        }
-        // ...
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        console.log(errorMessage);
-        // ..
-      });
-  };
-
-  const handlegithulogin = () => {
-    githulogin()
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
-        console.log(user);
-        navigate(from, { replace: true });
-
-        if (user) {
-          toast("Acount Create Success");
-        }
-        // ...
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        console.log(errorMessage);
-        // ..
-      });
-  };
+///
 
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          {/* <div className="text-center lg:text-left">
-            <Player
-              className=" rounded-lg  sm:w-[500px] sm:h-[500px]"
-              autoplay
-              loop
-              src=""
-              // style={{ height: "500px", width: "700px" }}
-            ></Player>
-          </div> */}
+         
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <h1 className="text-5xl font-bold">Login now!</h1>
 
